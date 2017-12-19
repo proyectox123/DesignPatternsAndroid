@@ -9,6 +9,8 @@ import com.udemy.mho.factorypattern.example.product.Roll
 import com.udemy.mho.factorypattern.example.product.Sliced
 import com.udemy.mho.factorypattern.exercise1.PokemonFactory
 import com.udemy.mho.factorypattern.exercise1.PokemonType
+import com.udemy.mho.factorypattern.exercise2.MovieFactory
+import com.udemy.mho.factorypattern.exercise2.MovieGenre
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -23,6 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         exampleBread()
         examplePokemon()
+        exampleMovie()
     }
 
     private fun exampleBread(){
@@ -52,6 +55,20 @@ class MainActivity : AppCompatActivity() {
                 .append("\n")
                 .append("Suggest pokemon with type ${PokemonType.WATER}: ")
                 .append(pokemonFactory.getPokemon(PokemonType.WATER).name())
+                .toString()
+    }
+
+    private fun exampleMovie(){
+        val movieFactory = MovieFactory()
+        text_view.text = StringBuilder()
+                .append("Suggest movie with genre ${MovieGenre.ACTION}: ")
+                .append(movieFactory.recommendMovieByGenre(MovieGenre.ACTION).name())
+                .append("\n")
+                .append("Suggest movie with genre ${MovieGenre.HORROR}: ")
+                .append(movieFactory.recommendMovieByGenre(MovieGenre.HORROR).name())
+                .append("\n")
+                .append("Suggest movie with genre ${MovieGenre.SCIFI}: ")
+                .append(movieFactory.recommendMovieByGenre(MovieGenre.SCIFI).name())
                 .toString()
     }
 }
