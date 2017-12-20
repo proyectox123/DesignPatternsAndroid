@@ -29,5 +29,13 @@ class MainActivity : AppCompatActivity() {
                 Log.d(TAG, "Bread ${bread.name()}${bread.calories()}")
             }
         }
+
+        val drinkFactory = FactoryGenerator.getFactory("DRI")
+        drinkFactory?.let {
+            val drink = drinkFactory.getDrink("BEE")
+            drink?.let {
+                Log.d(TAG, "Bread ${drink.name()}${drink.calories()}")
+            }
+        }
     }
 }

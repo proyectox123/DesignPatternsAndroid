@@ -1,4 +1,4 @@
-package com.udemy.mho.abstractfactorypattern
+package com.udemy.mho.abstractfactorypattern.bread
 
 class Sliced : Bread {
     override fun name() = "Pan de pita"

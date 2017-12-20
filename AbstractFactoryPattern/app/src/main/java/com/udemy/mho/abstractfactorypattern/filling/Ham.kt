@@ -1,4 +1,4 @@
-package com.udemy.mho.abstractfactorypattern
+package com.udemy.mho.abstractfactorypattern.filling
 
 class Ham : Filling {
     override fun name() = "Jamón"

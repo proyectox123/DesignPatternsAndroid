@@ -1,4 +1,4 @@
-package com.udemy.mho.abstractfactorypattern
+package com.udemy.mho.abstractfactorypattern.filling
 
 class Tomato : Filling {
     override fun name() = "Tomate"
