@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FactoryPattern.iml" filepath="$PROJECT_DIR$/FactoryPattern.iml" />
+      <module fileurl="file://C:\Users\mauricio.hernandez\Desktop\Courses\Udemy\DesignPatternsAndroid\FactoryPattern\FactoryPattern.iml" filepath="C:\Users\mauricio.hernandez\Desktop\Courses\Udemy\DesignPatternsAndroid\FactoryPattern\FactoryPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\mauricio.hernandez\Desktop\Courses\Udemy\DesignPatternsAndroid\FactoryPattern\app\app.iml" filepath="C:\Users\mauricio.hernandez\Desktop\Courses\Udemy\DesignPatternsAndroid\FactoryPattern\app\app.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,4 @@
+#Tue Dec 19 18:32:18 CST 2017
+base.0=C\:\\Users\\mauricio.hernandez\\Desktop\\Courses\\Udemy\\DesignPatternsAndroid\\AbstractFactoryPattern\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

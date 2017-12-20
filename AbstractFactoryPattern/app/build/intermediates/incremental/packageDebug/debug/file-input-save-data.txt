@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Dec 19 18:27:45 CST 2017
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\mauricio.hernandez\\Desktop\\Courses\\Udemy\\DesignPatternsAndroid\\AbstractFactoryPattern\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
