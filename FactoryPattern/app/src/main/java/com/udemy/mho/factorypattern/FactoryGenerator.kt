@@ -1,8 +1,8 @@
 package com.udemy.mho.factorypattern
 
-import com.udemy.mho.factorypattern.bread.BreadFactory
+import com.udemy.mho.factorypattern.ingredient.bread.BreadFactory
 import com.udemy.mho.factorypattern.drink.DrinkFactory
-import com.udemy.mho.factorypattern.filling.FillingFactory
+import com.udemy.mho.factorypattern.ingredient.filling.FillingFactory
 
 /**
  * Created by mauricio.hernandez on 19/12/2017.

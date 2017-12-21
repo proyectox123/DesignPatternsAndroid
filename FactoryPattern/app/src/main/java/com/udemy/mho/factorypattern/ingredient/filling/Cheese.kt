@@ -1,6 +1,6 @@
-package com.udemy.mho.factorypattern.filling
+package com.udemy.mho.factorypattern.ingredient.filling
 
-class Cheese : Filling {
+class Cheese : Filling() {
     override fun description() = "Delicioso queso manchego"
 
     override fun image() = "R.drawable.cheese"

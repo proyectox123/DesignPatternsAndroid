@@ -1,8 +1,8 @@
-package com.udemy.mho.factorypattern.filling
+package com.udemy.mho.factorypattern.ingredient.filling
 
 import com.udemy.mho.factorypattern.AbstractFactory
 import com.udemy.mho.factorypattern.drink.Drink
-import com.udemy.mho.factorypattern.bread.Bread
+import com.udemy.mho.factorypattern.ingredient.bread.Bread
 
 class FillingFactory : AbstractFactory() {
     override fun getBread(breadType: String): Bread? = null

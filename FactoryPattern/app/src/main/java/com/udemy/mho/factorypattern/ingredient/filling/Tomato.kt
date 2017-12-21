@@ -1,6 +1,6 @@
-package com.udemy.mho.factorypattern.filling
+package com.udemy.mho.factorypattern.ingredient.filling
 
-class Tomato : Filling {
+class Tomato : Filling() {
     override fun description() = "Frescos tomates"
 
     override fun image() = "R.drawable.tomato"

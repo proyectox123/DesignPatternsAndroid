@@ -1,6 +1,6 @@
-package com.udemy.mho.factorypattern.bread
+package com.udemy.mho.factorypattern.ingredient.bread
 
-class Roll : Bread {
+class Roll : Bread() {
     override fun description() = "Este es un pan de molde"
 
     override fun image() = "R.drawable.roll"

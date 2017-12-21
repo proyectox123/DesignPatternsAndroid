@@ -1,8 +1,8 @@
-package com.udemy.mho.factorypattern.bread
+package com.udemy.mho.factorypattern.ingredient.bread
 
 import com.udemy.mho.factorypattern.AbstractFactory
 import com.udemy.mho.factorypattern.drink.Drink
-import com.udemy.mho.factorypattern.filling.Filling
+import com.udemy.mho.factorypattern.ingredient.filling.Filling
 
 class BreadFactory : AbstractFactory() {
 

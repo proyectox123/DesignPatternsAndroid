@@ -1,6 +1,6 @@
-package com.udemy.mho.factorypattern.bread
+package com.udemy.mho.factorypattern.ingredient.bread
 
-class Sliced : Bread {
+class Sliced : Bread() {
     override fun description() = "Este es un pan de pita"
 
     override fun image() = "R.drawable.sliced"
