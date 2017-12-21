@@ -10,19 +10,17 @@ import com.udemy.mho.factorypattern.ingredient.filling.Ham
  */
 class SandwichBuilder {
 
-    companion object {
-        fun cheeseAndHam() : Sandwich {
-            val sandwich = Sandwich()
-            sandwich.addIngredient(Sliced())
-            sandwich.addIngredient(Ham())
-            sandwich.addIngredient(Cheese())
+    fun cheeseAndHam() : Sandwich {
+        val sandwich = Sandwich()
+        sandwich.addIngredient(Sliced())
+        sandwich.addIngredient(Ham())
+        sandwich.addIngredient(Cheese())
 
-            return sandwich
-        }
+        return sandwich
+    }
 
-        fun build(sandwich: Sandwich, ingredient: Ingredient) : Sandwich{
-            sandwich.addIngredient(ingredient)
-            return sandwich
-        }
+    fun build(sandwich: Sandwich, ingredient: Ingredient) : Sandwich{
+        sandwich.addIngredient(ingredient)
+        return sandwich
     }
 }

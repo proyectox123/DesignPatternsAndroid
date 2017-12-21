@@ -12,7 +12,7 @@ class Sandwich {
         val TAG : String = Sandwich::class.java.simpleName
     }
 
-    val ingredients: MutableList<Ingredient> = ArrayList()
+    private val ingredients: MutableList<Ingredient> = ArrayList()
 
     fun addIngredient(ingredient: Ingredient){
         ingredients.add(ingredient)
@@ -22,10 +22,10 @@ class Sandwich {
         var calories = 0
         ingredients.forEach { calories += it.calories() }
 
-        Log.d(TAG,"Total de calorías: $calories kcal")
+        Log.e(TAG,"Total de calorías: $calories kcal")
     }
 
     fun getIngredients(){
-        ingredients.forEach { Log.d(TAG,"${it.name()}: ${it.calories()} kcal") }
+        ingredients.forEach { Log.e(TAG,"${it.name()}: ${it.calories()} kcal") }
     }
 }

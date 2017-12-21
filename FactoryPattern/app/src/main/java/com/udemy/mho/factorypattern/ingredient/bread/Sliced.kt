@@ -7,5 +7,5 @@ class Sliced : Bread() {
 
     override fun name() = "Pan de pita"
 
-    override fun calories() = 169
+    override fun calories() = 80
 }
