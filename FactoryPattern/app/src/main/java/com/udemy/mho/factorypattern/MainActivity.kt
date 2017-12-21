@@ -2,7 +2,6 @@ package com.udemy.mho.factorypattern
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,17 +9,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        createBread()
+//        createBread()
     }
 
-    private fun createBread(){
-        val breadFactory = BreadFactory()
-        text_view.text = StringBuilder()
-                .append(breadFactory.getBread("BAG")?.name())
-                .append("\n")
-                .append(breadFactory.getBread("ROL")?.name())
-                .append("\n")
-                .append(breadFactory.getBread("SLI")?.name())
-                .toString()
-    }
+//    private fun createBread(){
+//        val breadFactory = BreadFactory()
+//        text_view.text = StringBuilder()
+//                .append(breadFactory.getBread("BAG")?.name())
+//                .append("\n")
+//                .append(breadFactory.getBread("ROL")?.name())
+//                .append("\n")
+//                .append(breadFactory.getBread("SLI")?.name())
+//                .toString()
+//    }
 }
