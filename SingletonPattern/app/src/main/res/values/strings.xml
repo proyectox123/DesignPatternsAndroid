@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">SingletonPattern</string>
+    <string name="app_name">Patrones de diseño</string>
+    <string name="settings_button">Ajustes</string>
+    <string name="search_button">Buscar</string>
+    <string name="toolbar_title">It\'s title</string>
+    <string name="toolbar_subtitle">And it is a subtitle</string>
 </resources>
